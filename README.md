@@ -1,16 +1,95 @@
-# React + Vite
+# Goal-Based Investing Dashboard with Portfolio Analysis
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🎯 The Idea
+Savers often struggle to connect their financial goals with the right investment strategy.  
 
-Currently, two official plugins are available:
+They set targets like retirement or buying a home, but lack clarity on:
+- What return they actually need  
+- Whether their current portfolio can get them there  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This feature bridges that gap by turning a financial goal into a **personalised investment plan**, and allowing users to **analyze and optimize their existing portfolio**.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 💡 How It Works
 
-## Expanding the ESLint configuration
+### 1. Set a Goal
+- Name your goal (e.g. *“Dream House”*)
+- Choose a category  
+- Enter:
+  - Target amount  
+  - Target date  
+  - Monthly savings  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The app instantly calculates the required annual return.
+
+---
+
+### 2. Get a Personalised Strategy
+- Recommends an asset allocation (stocks / bonds / cash)
+- Suggests real Swedish funds, such as:
+  - *Länsförsäkringar Global Indexnära*  
+  - *Spiltan Aktiefond Investmentbolag*  
+
+Each fund includes:
+- Historical returns  
+- Risk level  
+- Fees  
+
+---
+
+### 3. Analyse Your Current Portfolio
+- Add your existing holdings via a searchable fund database  
+- Portfolio is evaluated using **historical returns** matched to your time horizon
+
+**Real-time insights:**
+- Projected portfolio value  
+- Required return gap  
+- “On track” vs “off track” status  
+
+If you're off track, the app provides actionable recommendations, e.g.:
+- *“Increase equity exposure”*  
+- *“Reduce bond allocation”*
+
+---
+
+### 4. Visual Progress Tracking
+A single chart compares three scenarios:
+
+- Required return path  
+- Savings only（holding cash, no investments)
+- Current portfolio  
+
+Instantly see if you're ahead or behind your goal.
+
+---
+
+## 🧠 Why This Feature
+
+### Customer Value
+- Empowers users with data-driven decisions
+- Connects saving and investing into one clear journey
+
+### Feasibility
+Built with:
+- React  
+- Tailwind CSS  
+- Recharts  
+
+Uses real Swedish fund data and is easily extendable to a production database.
+
+### Commercial Impact
+- Increases user engagement  
+- Drives smarter investment decisions  
+- Enables personalised financial guidance at scale  
+
+---
+
+## 🚀 App in Action
+
+🔗 **Live Demo:** [app URL]
+
+---
+
+## 🇸🇪 Vision
+Helping SAVR become Sweden’s best investment platform — not just for saving, but for **smart investing**.
