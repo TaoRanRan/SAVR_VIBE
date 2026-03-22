@@ -87,7 +87,7 @@ Uses real Swedish fund data and is easily extendable to a production database.
 
 ## 🚀 App in Action
 
-🔗 **Live Demo:** [app URL]
+**App:** [Open App](https://savr-vibe.vercel.app?_vercel_share=BAEgJIbu9hCo1c336rwDwhJvuUtv6zDz)
 
 ---
 
